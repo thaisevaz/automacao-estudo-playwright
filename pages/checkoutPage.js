@@ -25,7 +25,7 @@ export class CheckoutPage {
     await this.page.click(this.finishButton);
   }
 
-  async mensagemSucesso() {
-    return this.page.locator(this.successMessage);
-  }
+ mensagemSucesso() {
+  return this.page.locator(this.successMessage);
+}
 }
